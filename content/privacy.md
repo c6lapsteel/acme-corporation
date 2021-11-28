@@ -1,3 +1,12 @@
+---
+menu:
+  footer:
+    name: Privacy Policy
+    weight: 3
+---
+
+Excerpt From: Atishay Jain. “Hugo in Action: Static sites and dynamic JAMstack apps MEAP V12”. Apple Books. 
+
 Privacy Policy
 
 Last updated August 19, 2019
