@@ -21,7 +21,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL=<linearrow />[.underline]https://hugoinaction.github.io/GitHubPages
+        run: hugo --minify --baseURL=<linearrow />[.underline]https://c6lapsteel.github.io/GitHubPages
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
