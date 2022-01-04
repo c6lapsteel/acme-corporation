@@ -4,8 +4,12 @@
   z-index: 999999;
   max-height: 100vh;
   overflow: auto;
-  width: 100%;
+  width: 50px;
   bottom: 0;
+}
+
+.debug.expanded {
+  width: 100%
 }
 
 .debug.expanded .debug-badge {
