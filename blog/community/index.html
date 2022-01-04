@@ -20,11 +20,11 @@
 <meta name=twitter:description content>
 <meta name=twitter:site content="@https://twitter.com/example">
 <meta name=twitter:creator content="@https://twitter.com/example">
-<script type=application/ld+json>{"headline":"","publisher":{"@type":"Organization","name":"Acme Corporation"},"author":{"@type":"Person","name":"Acme Corporation"},"description":"","name":"Acme Corporation","@type":"Blog","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/example.org\/blog\/community\/"},"@context":"http://schema.org","url":"http://example.org/blog/community/"}</script>
+<script type=application/ld+json>{"headline":"","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/image/logo.min.svg"},"name":"Acme Corporation"},"author":{"@type":"Person","name":"Acme Corporation"},"description":"","name":"Acme Corporation","@type":"Blog","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/example.org\/blog\/community\/"},"@context":"http://schema.org","url":"http://example.org/blog/community/"}</script>
 <link rel=preload href=/index.json as=fetch crossorigin importance=low>
-<link rel=stylesheet href=/css/index.min.1852769a4a752ace5e9ba0e73599035b834d60c5c17d2ef33492ae0a0933a51a123b66b13e332335089929fdfc2132a83f6ba4715cd935442189b447ce299e9b.css media=none onload="media!='all'&&(media='all')">
+<link rel=stylesheet href=/css/index.min.bcf84ef1ef89250a18337e3b501f3f7546d207ac847d04489e0aa61e32bcafdca16f6c32e654f1ba794942ca33317e10654c2d5120d5777adeb4c71f148293a4.css media=none onload="media!='all'&&(media='all')">
 <noscript>
-<link rel=stylesheet href=/css/index.min.1852769a4a752ace5e9ba0e73599035b834d60c5c17d2ef33492ae0a0933a51a123b66b13e332335089929fdfc2132a83f6ba4715cd935442189b447ce299e9b.css media=screen>
+<link rel=stylesheet href=/css/index.min.bcf84ef1ef89250a18337e3b501f3f7546d207ac847d04489e0aa61e32bcafdca16f6c32e654f1ba794942ca33317e10654c2d5120d5777adeb4c71f148293a4.css media=screen>
 </noscript>
 <style>html{opacity:0}</style>
 <script type=text/javascript src=/index.min.js defer></script>
@@ -37,9 +37,13 @@
 <input class=hamburger role=button type=checkbox aria-label="Menu Button">
 <a class=icon aria-hidden=true><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 25 28"><g class="svg-menu-toggle"><path class="bar" d="M20.945 8.75c0 .69-.5 1.25-1.117 1.25H3.141c-.617.0-1.118-.56-1.118-1.25s.5-1.25 1.118-1.25h16.688C20.445 7.5 20.945 8.06 20.945 8.75z"/><path class="bar" d="M20.923 15c0 .689-.501 1.25-1.118 1.25H3.118C2.5 16.25 2 15.689 2 15s.5-1.25 1.118-1.25h16.687C20.422 13.75 20.923 14.311 20.923 15z"/><path class="bar" d="M20.969 21.25c0 .689-.5 1.25-1.117 1.25H3.164c-.617.0-1.118-.561-1.118-1.25S2.546 20 3.164 20h16.688C20.469 20 20.969 20.561 20.969 21.25z"/></g></svg>
 </a>
-<a role=button class=logo href=http://example.org/index.html>Acme Corporation<span class=sr-only>Logo</span>
+<a role=button class=logo href=http://example.org/index.html><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 118 118" style="enable-background:new 0 0 118 118"><style>.st0{fill:#4f46e5}.st1{font-family:helveticaneue}.st2{font-size:28px}.st3{font-family:helveticaneue-thin}.st4{font-size:24px}</style><path class="st0" d="M104 15.8c-2.5 1.1-3.5-.1-4.7-.7-7.6-3.5-14.8-7.6-22.8-10.3-5-1.7-9.8-1.4-14.6.3-8.8 3.1-16.5 8.1-24.7 12.4-2.1 1.1-5.3 3.5-6.5 1.2s2.7-3.5 4.8-4.6c8-4.3 15.8-9.1 24.3-12.4C66.3-.7 72.6-.6 79 2c8.7 3.6 16.4 8.7 25 13.8z"/><path class="st0" d="M1.3 27.3c4.6-.4 9.3-.9 14-1 13.3-.2 26.7-.3 40-.3 1.5.0 3.8-.4 3.8 1.9.0 1.8-2 1.9-3.5 1.9C37.4 29.8 19.3 30.1 1.3 27.3z"/><text transform="matrix(1 0 0 1 22.9507 61.1348)" class="st1 st2">Acme</text><text transform="matrix(1 0 0 1 6.713867e-04 94.7348)" class="st3 st4">Corporation</text></svg>
+<span class=sr-only>Logo</span>
 </a>
 <ul role=menubar class=top-menu>
+<li role=menuitem class=top-menu-item>
+<a href=/about>ABOUT</a>
+</li>
 <li role=menuitem class="top-menu-item active">
 <a href=/blog/>BLOG</a>
 <ul class=sub-menu role=menu>
@@ -47,9 +51,6 @@
 <a href=/blog/community/>COMMUNITY</a>
 </li>
 </ul>
-</li>
-<li role=menuitem class=top-menu-item>
-<a href=/about>ABOUT</a>
 </li>
 <li role=menuitem class=top-menu-item>
 <a href=/news/>NEWS</a>
@@ -66,7 +67,7 @@
 </div>
 <div id=scroll-indicator></div>
 </header>
-<img class=background intrinsicsize=1400x787 width=0 height=0 alt="Page Background" role=presentation src=/image/background_hu5fa5007403ed47f8e70c21b28ee4cec6_92766_1400x787_fill_q75_box_smart1.jpg>
+<img class=background intrinsicsize=1400x787 width=0 height=0 alt="Page Background" role=presentation src=/image/background.svg>
 <div class=background role=presentation></div>
 <article class=list>
 <h1 class=title></h1>
@@ -75,20 +76,26 @@
 </div>
 <ul class="blog-posts items-10">
 <li class="blog-post item">
-<a href=/blog/community/circle/>
-<h3>Circle</h3></a><p>A circle is a simple closed shape. It is the set of all points in a plane that are at a given distance from a given point, the centre; equivalently it is the curve traced out by a point that moves in a plane so that its distance from a given point is constant. The distance between any of the points and the centre is called the radius. This article is about circles in Euclidean geometry, and, in particular, the Euclidean plane, except where otherwise noted.</p><hr>
+<a href=/blog/community/circle/><div class=banner-holder>
+<img intrinsicsize=440x330 width=440 height=330 alt=Circle role=banner class=banner src=/blog/community/circle/cover_hu970919c39417967ec24caa24affdbeb1_560968_440x330_fill_q75_box_center.jpg>
+</div><h3>Circle</h3></a><p>A circle is a simple closed shape. It is the set of all points in a plane that are at a given distance from a given point, the centre; equivalently it is the curve traced out by a point that moves in a plane so that its distance from a given point is constant. The distance between any of the points and the centre is called the radius. This article is about circles in Euclidean geometry, and, in particular, the Euclidean plane, except where otherwise noted.</p><hr>
 <div class=blog-post-footer>
 <a href=/blog/community/circle/>Read More</a>
-<span class=categories>
+<span class=categories><svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M5 5V6 26v1H6 26h1V26 6 5H26 6 5zM7 7H25V25H7V7zm7.21875 2.28125-1.4375 1.4375L18.0625 16l-5.28125 5.28125 1.4375 1.4375 6-6L20.90625 16l-.6875-.71875-6-6z"/></svg>
+<a href=/categories/shape>Shape</a>
+<a href=/categories/public>Public</a>
 </span>
 </div>
 </li>
 <li class="blog-post item">
-<a href=/blog/community/curve/>
-<h3>Curve</h3></a><p>In mathematics, a curve (also called a curved line in older texts) is, generally speaking, an object similar to a line but that need not be straight. Thus, a curve is a generalization of a line, in that it may be curved.</p><hr>
+<a href=/blog/community/curve/><div class=banner-holder>
+<img intrinsicsize=440x330 width=440 height=330 alt=Curve role=banner class=banner src=/blog/community/curve/cover_hub232108180ab9296cad5fd6dfec6d589_270243_440x330_fill_q75_box_center.jpg>
+</div><h3>Curve</h3></a><p>In mathematics, a curve (also called a curved line in older texts) is, generally speaking, an object similar to a line but that need not be straight. Thus, a curve is a generalization of a line, in that it may be curved.</p><hr>
 <div class=blog-post-footer>
 <a href=/blog/community/curve/>Read More</a>
-<span class=categories>
+<span class=categories><svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M5 5V6 26v1H6 26h1V26 6 5H26 6 5zM7 7H25V25H7V7zm7.21875 2.28125-1.4375 1.4375L18.0625 16l-5.28125 5.28125 1.4375 1.4375 6-6L20.90625 16l-.6875-.71875-6-6z"/></svg>
+<a href=/categories/shape>Shape</a>
+<a href=/categories/public>Public</a>
 </span>
 </div>
 </li>
@@ -107,32 +114,32 @@ Recent Blog Posts
 </h2>
 <ul>
 <li>
-<a href=http://example.org/blog/process-4/>Our Manufacturing Process Part IV</a> -
+<a href=http://example.org/blog/process_4/>Our Manufacturing Process Part IV</a> -
 <time datetime=2019-01-04T00:00:00Z>Friday, Jan 4, 2019.</time>
 </li>
 <li>
-<a href=http://example.org/blog/process-3/>Our Manufacturing Process Part III</a> -
+<a href=http://example.org/blog/process_3/>Our Manufacturing Process Part III</a> -
 <time datetime=2019-01-03T00:00:00Z>Thursday, Jan 3, 2019.</time>
 </li>
 <li>
-<a href=http://example.org/blog/process-2/>Our Manufacturing Process Part II</a> -
+<a href=http://example.org/blog/process_2/>Our Manufacturing Process Part II</a> -
 <time datetime=2019-01-02T00:00:00Z>Wednesday, Jan 2, 2019.</time>
 </li>
 <li>
-<a href=http://example.org/blog/process-1/>Our Manufacturing Process Part I</a> -
+<a href=http://example.org/blog/process_1/>Our Manufacturing Process Part I</a> -
 <time datetime=2019-01-01T00:00:00Z>Tuesday, Jan 1, 2019.</time>
 </li>
 <li>
-<a href=http://example.org/blog/building-squares/>Building squares</a> -
-<time datetime=2021-10-07T23:21:56+01:00>Thursday, Oct 7, 2021.</time>
+<a href=http://example.org/blog/building_squares/>Building Squares</a> -
+<time datetime=2022-01-04T06:05:51Z>Tuesday, Jan 4, 2022.</time>
 </li>
 <li>
 <a href=http://example.org/blog/community/circle/>Circle</a> -
-<time datetime=2021-10-07T23:21:56+01:00>Thursday, Oct 7, 2021.</time>
+<time datetime=2022-01-04T06:05:51Z>Tuesday, Jan 4, 2022.</time>
 </li>
 <li>
 <a href=http://example.org/blog/community/curve/>Curve</a> -
-<time datetime=2021-10-07T23:21:56+01:00>Thursday, Oct 7, 2021.</time>
+<time datetime=2022-01-04T06:05:51Z>Tuesday, Jan 4, 2022.</time>
 </li>
 </ul>
 </section>
@@ -163,13 +170,14 @@ Contact Us
 Important Links
 </h2>
 <ul class=sidebar-nav>
-<li><a class=footer-menu href=/blog/ title>Blog</a></li>
-<li><a class=footer-menu href=/terms/ title>Terms of Use</a></li>
 <li><a class=footer-menu href=/privacy/ title>Privacy Policy</a></li>
+<li><a class=footer-menu href=/blog/ title>Blog</a></li>
+<li><a class=footer-menu href=/categories/ title=Categories>Categories</a></li>
+<li><a class=footer-menu href=/terms/ title>Terms of Use</a></li>
 </ul>
 </section>
 </div><div id=copyright>Copyright © 2021 Acme Corporation. All Rights Reserved. Last Updated -
-<time datetime=2021-11-28T16:57:33Z>Sunday, Nov 28, 2021.</time> <br>
+<time datetime=2022-01-04T06:06:43Z>Tuesday, Jan 4, 2022.</time> <br>
 Themed using <a href>Eclectic</a> by <a href=https://atishay.me>Atishay</a>
 </div>
 </footer>
